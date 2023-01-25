@@ -1,0 +1,13 @@
+/* 
+* Ejercicio 2:
+* pantallas con un ancho minimo de 600px y orientacion vertical: cambiar el color del texto 
+*/
+
+@media (min-width: 600px) and (orientation:portrait) {
+
+    h2,
+    h3 {
+        color: red;
+    }
+
+}

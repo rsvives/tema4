@@ -1,0 +1,20 @@
+/* 
+Con max width 
+*/
+.columna {
+    width: 23%;
+}
+
+@media (max-width: 1200px) {
+    .columna {
+        width: 48%;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .columna {
+        width: 100%;
+    }
+
+}

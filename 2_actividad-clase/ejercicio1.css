@@ -1,0 +1,23 @@
+/*
+* Ejercicio 1:
+* ancho mayor 800px , h2 32 px y h3 24px 
+* ancho menor 800 px, h2 24 px y h3 18 px
+*/
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+@media screen and (min-width: 800px) {
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+}

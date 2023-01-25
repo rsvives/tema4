@@ -1,0 +1,21 @@
+@media (min-width: 240px) {
+    .columna {
+        width: 100%;
+    }
+}
+
+/*pantallas entre 800 y 1200 uan ancho de 50*/
+@media (min-width: 800px) {
+    .columna {
+        width: 48%;
+    }
+
+}
+
+/*pantallas a partir de 1200 ancho de 25*/
+@media (min-width: 1200px) {
+    .columna {
+        width: 23%;
+    }
+
+}

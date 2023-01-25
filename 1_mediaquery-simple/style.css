@@ -1,0 +1,20 @@
+h1,
+ul {
+    color: gray;
+}
+
+@media screen and (min-width:300px) and (max-width:400px) {
+    ul {
+
+        color: #FABADA;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:700px) {
+    h1 {
+
+        font-size: 54px;
+    }
+
+}
